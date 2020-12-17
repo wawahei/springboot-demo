@@ -1,6 +1,10 @@
 package com.wawahei.demo.bean;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
 
 /**
  * @description:
@@ -8,8 +12,12 @@ import lombok.Data;
  * @create: 2020-12-16 13:22
  **/
 @Data
-public class User {
-    private int id;
+@AllArgsConstructor
+@NoArgsConstructor
+public class User implements Serializable{
+
+    private static final long serialVersionUID = -6892536116981855597L;
+    private Integer id;
     private String name;
     private String password;
 }

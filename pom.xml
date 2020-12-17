@@ -48,6 +48,11 @@
 			<version>1.16.10</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
 		<!--支持jsp-->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
