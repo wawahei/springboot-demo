@@ -1,8 +1,8 @@
-package com.snbc.demo.service.impl;
+package com.wawahei.demo.service.impl;
 
-import com.snbc.demo.bean.User;
-import com.snbc.demo.mapper.UserMapper;
-import com.snbc.demo.service.UserService;
+import com.wawahei.demo.bean.User;
+import com.wawahei.demo.mapper.UserMapper;
+import com.wawahei.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

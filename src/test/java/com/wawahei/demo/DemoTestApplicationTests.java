@@ -1,7 +1,7 @@
-package com.snbc.demo;
+package com.wawahei.demo;
 
-import com.snbc.demo.bean.User;
-import com.snbc.demo.service.UserService;
+import com.wawahei.demo.bean.User;
+import com.wawahei.demo.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

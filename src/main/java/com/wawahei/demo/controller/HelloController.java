@@ -1,7 +1,7 @@
-package com.snbc.demo.controller;
+package com.wawahei.demo.controller;
 
-import com.snbc.demo.bean.User;
-import com.snbc.demo.service.UserService;
+import com.wawahei.demo.bean.User;
+import com.wawahei.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,6 +1,6 @@
-package com.snbc.demo.service;
+package com.wawahei.demo.service;
 
-import com.snbc.demo.bean.User;
+import com.wawahei.demo.bean.User;
 
 /**
  * @description:

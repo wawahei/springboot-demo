@@ -1,11 +1,11 @@
-package com.snbc.demo;
+package com.wawahei.demo;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.snbc.demo.mapper")
+@MapperScan("com.wawahei.demo.mapper")
 public class DemoApplication {
 
 	public static void main(String[] args) {

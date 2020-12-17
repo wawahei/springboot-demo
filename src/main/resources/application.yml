@@ -8,14 +8,14 @@ server:
 spring:
   datasource:
     name: test  #数据库名
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useSSL=true #url
-    username: root  #用户名
-    password: 123456  #密码
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&useSSL=true
+    username: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
   mvc:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
 mybatis:
-  mapper-locations: classpath:mapper/*.xml  #配置映射文件
-  type-aliases-package: com.snbc.demo_test.bean #配置实体类
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.wawahei.demo.bean

@@ -1,4 +1,4 @@
-package com.snbc.demo.bean;
+package com.wawahei.demo.bean;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.snbc.demo.mapper;
+package com.wawahei.demo.mapper;
 
-import com.snbc.demo.bean.User;
+import com.wawahei.demo.bean.User;
 
 /**
  * @description:
