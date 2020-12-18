@@ -1,1 +1,3 @@
 springboot2 + mybatis + jsp
+spring-redis 分布式session
+rabbitmq 	
