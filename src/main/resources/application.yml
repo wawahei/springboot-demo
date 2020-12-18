@@ -32,8 +32,12 @@ spring:
     host: 127.0.0.1
     pool: 6379
     password:
-    session:
-      store-type: reids
+  session:
+    store-type: redis
+    timeout: 3600s
+    redis:
+      flush-mode: on_save
+      namespace: spring:session
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.wawahei.demo.bean

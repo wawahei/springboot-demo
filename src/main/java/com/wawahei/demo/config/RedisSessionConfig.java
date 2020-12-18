@@ -12,9 +12,10 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
  * @create: 2020-12-18 09:06
  **/
 @EnableCaching
-@EnableRedisHttpSession(maxInactiveIntervalInSeconds = 30)
+@EnableRedisHttpSession(maxInactiveIntervalInSeconds = 60)
 @Configuration
 public class RedisSessionConfig {
+
     @Bean
     public static ConfigureRedisAction configureRedisAction(){
         //让springSession不再执行config命令
