@@ -18,12 +18,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/config/JacksonConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/config/RabbitmqConfig.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/config/RedisSessionConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/config/RedisTemplateConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/config/WebSecurityConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/controller/HelloController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/controller/login/LoginController.java">
           <value>
             <set />
           </value>
@@ -34,6 +59,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/controller/rabbitmq/RabbitmqController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/interceptor/RedisSessionInterceptor.java">
           <value>
             <set />
           </value>
@@ -68,12 +98,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/response/BackResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/response/ResponseCodeEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/service/RabbitmqService.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/service/impl/RabbitmqServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/wawahei/demo/util/JsonUtils.java">
           <value>
             <set />
           </value>

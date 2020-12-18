@@ -28,7 +28,12 @@ spring:
     publisher-confirm-type: correlated  # 开启消息确认机制 confirm 异步
     publisher-confirms: true    # 之前的旧版本 开启消息确认机制的方式
     publisher-returns: true
-
+  redis:
+    host: 127.0.0.1
+    pool: 6379
+    password:
+    session:
+      store-type: reids
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.wawahei.demo.bean
