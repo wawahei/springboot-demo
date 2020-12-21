@@ -69,6 +69,12 @@
 			<artifactId>spring-boot-starter-amqp</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.7.0</version>
+		</dependency>
+
 		<!--支持jsp-->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>

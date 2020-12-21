@@ -2,3 +2,6 @@ springboot2 + mybatis + jsp
 spring-redis 分布式session
 rabbitmq 	demo
 digest demo
+jwt demo	
+	http://127.0.0.1:8080/demo/jwt/login?name=a&password=123456
+	http://127.0.0.1:8080/demo/jwt/info
