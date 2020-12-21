@@ -23,7 +23,7 @@ public class GlobalExceptionHandler {
     public BackResult exceptionHandler(HttpServletRequest request, Exception exception) throws Exception {
         LOGGER.error("url:{}|errorMsg:{}", request.getRequestURI(), exception.getMessage(), exception);
         BackResult backResult = new BackResult(ResponseCodeEnum.INTERNAL_SERVER_ERROR);
-        backResult.setData(request.getRequestURL().toString());
+        backResult.setData(exception.getMessage());
         return backResult;
     }
 }
