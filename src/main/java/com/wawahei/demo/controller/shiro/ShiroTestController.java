@@ -67,4 +67,9 @@ public class ShiroTestController {
     public BackResult add() {
         return new BackResult("add success!");
     }
+
+    @GetMapping("/error")
+    public BackResult error() {
+        return new BackResult(ResponseCodeEnum.NO_PRIMISSION);
+    }
 }
